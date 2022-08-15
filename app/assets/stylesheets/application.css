@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #222831;
+  padding: 4em;
+}
+
+h1 {
+  color: #00ADB5;
+  font-family: 'Lora', serif;
+  letter-spacing: 5px;
+}
+
+strong {
+  color: #EEEEEE;
+}
+
+/* Classes added to select q&a better */
+ .question {
+  color: #00ADB5;
+  font-family: 'Poppins', sans-serif;
+  border-style: solid;
+  border-width: 3px;
+ }
+
+ .answer {
+  color: #00ADB5;
+  font-family: 'Poppins', sans-serif;
+  border-style: solid;
+  border-width: 3px;
+ }
+
+ .question-ask {
+  color: #00ADB5;
+  font-family: 'Poppins', sans-serif;
+  border-style: solid;
+  border-width: 3px;
+ }
+
+ .question-answer {
+  color: #00ADB5;
+  font-family: 'Poppins', sans-serif;
+  border-style: solid;
+  border-width: 3px;
+ }
